@@ -26,78 +26,114 @@ Hardware
 - Hardware Features:
 
   - CPU:
+
     - Rockchip RK3588(8nm LP process)
+
     - 8-core 64-bit processor
+
     - Quad-core Cortex-A76 and quad-core Cortex-A55 big and
       small core architecture
+
     - The main frequency of the big core is up to 2.4GHz, and
       the main frequency of the small core is up to 1.8GHz
 
   - GPU:
+
     - Integrated ARM Mali-G610
+
     - OpenGL ES1.1/2.0/3.2, OpenCL 2.2 and Vulkan 1.2
 
   - NPU:
+
     - Built-in AI accelerator NPU with up to 6 Tops computing
       power
+
     - Support INT4/INT8/INT16 mixed operations
 
   - video:
+
     - 1 * HDMI 2.1, Maximum support 8K @60Hz
+
     - 1 * HDMI Input, up to 4K @60FPS
+
     - 1 * MIPI D-PHY TX 4Lane
 
   - Memory:
+
     - 4GB/8GB/16GB(LPDDR5)
 
   - Camera:
+
     - 2 * MIPI CSI 4Lane
+
     - 1 * MIPI D-PHY RX 4Lane
 
   - PMU:
+
     - RK806-1
 
   - Onboard storage:
+
     - eMMC socket, can be connected to external eMMC module
+
     - 16MB QSPI Nor FLASH
+
     - MicroSD(TF) Card Slot
+
     - PCIe3.0x4 M.2 M-KEY(SSD) Slots
 
   - Ethernet:
+
     - 1 * PCIe 2.5G Ethernet port(RTL8125BG)
 
   - WIFI+BT:
+
     - Onboard Wi-Fi 6E+BT 5.3/BLE Modules: AP6611
+
     - Wi-Fi interface: SDIO3.0
+
     - BT interface: UART/PCM
 
   - Audio:
+
     - 3.5mm Headphone jack Audio input/output
+
     - Onboard MIC input
+
     - 2 * HDMI Output
 
   - PCIe M.2 M-KEY:
+
     - PCIe 3.0 x 4 lanes, For connecting NVMe SSD
 
   - USB interface:
+
     - 1 * USB3.0 support Device or HOST model
+
     - 1 * USB3.0 HOST
+
     - 2 * USB2.0 HOST
 
   - 40pin Extension pin header:
+
     For expansion UART, PWM, I2C, SPI, CAN and GPIO interface
 
   - Debug serial port:
+
     Included in 40PIN expansion port
 
   - LED Light:
+
     RGB LED three-color indicator
 
   - button:
+
     - 1 * MaskROM Key
+
     - 1 * Power button
 
   - powered by:
+
     Type-C Interface power supply 5V/5A
 
 Supported Features

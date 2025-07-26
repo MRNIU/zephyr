@@ -1,8 +1,6 @@
 /*
  * Copyright (c) 2021 Rockchip Electronics Co., Ltd.
- *
  * SPDX-License-Identifier: Apache-2.0
- *
  * Copyright The Zephyr Project Contributors
  */
 
@@ -374,6 +372,8 @@
 
 	sram0: memory@10000000 {
 		reg = <0x0 0x10000000 0x4 0x00000000>;
+		#address-cells = <2>;
+		#size-cells = <2>;
 	};
 
 	uart2: serial@feb50000 {
